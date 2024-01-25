@@ -1,0 +1,126 @@
+{
+  "id": "lutras-codex-imperialis",
+  "title": "Lutras Codex Imperialis",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Lutra",
+      "discord": "lutralutra",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    },
+    {
+      "name": "adventures",
+      "label": "Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    },
+    {
+      "name": "cardstack",
+      "label": "CardStack",
+      "path": "packs/cardstack",
+      "type": "Cards",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    },
+    {
+      "name": "journalentries",
+      "label": "JournalEntries",
+      "path": "packs/journalentries",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    },
+    {
+      "name": "playlists",
+      "label": "Playlists",
+      "path": "packs/playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    },
+    {
+      "name": "rolltables",
+      "label": "RollTables",
+      "path": "packs/rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "impmal",
+      "flags": {}
+    }
+  ]
+}
