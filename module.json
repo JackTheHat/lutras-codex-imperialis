@@ -10,7 +10,7 @@
     {
       "name": "Lutra",
       "discord": "lutralutra",
-      "flags": {}
+      "url": "https://github.com/JackTheHat"
     }
   ],
   "packs": [
@@ -19,108 +19,122 @@
       "label": "Actors",
       "path": "packs/actors",
       "type": "Actor",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     },
     {
       "name": "adventures",
       "label": "Adventures",
       "path": "packs/adventures",
       "type": "Adventure",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     },
     {
       "name": "cardstack",
       "label": "CardStack",
       "path": "packs/cardstack",
       "type": "Cards",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     },
     {
       "name": "items",
       "label": "Items",
       "path": "packs/items",
       "type": "Item",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     },
     {
       "name": "journalentries",
       "label": "JournalEntries",
       "path": "packs/journalentries",
       "type": "JournalEntry",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     },
     {
       "name": "macros",
       "label": "Macros",
       "path": "packs/macros",
       "type": "Macro",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     },
     {
       "name": "playlists",
       "label": "Playlists",
       "path": "packs/playlists",
       "type": "Playlist",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     },
     {
       "name": "rolltables",
       "label": "RollTables",
       "path": "packs/rolltables",
       "type": "RollTable",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     },
     {
       "name": "scenes",
       "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
+      "system": "impmal",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "impmal",
-      "flags": {}
+      }
     }
-  ]
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "LockView",
+        "type": "module"
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module"
+      },
+      {
+        "id": "tagger",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "impmal",
+        "type": "system"
+      }
+    ]
+  },
+  "url": "https://github.com/JackTheHat/lutras-codex-imperialis"
 }
