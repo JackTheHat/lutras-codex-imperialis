@@ -136,5 +136,10 @@
       }
     ]
   },
-  "url": "https://github.com/JackTheHat/lutras-codex-imperialis"
+  "url": "https://github.com/JackTheHat/lutras-codex-imperialis",
+  "download": "https://github.com/JackTheHat/lutras-codex-imperialis/archive/refs/tags/0.01.zip",
+  "manifest": "https://github.com/JackTheHat/lutras-codex-imperialis/releases/latest/download/module.json",
+  "readme": "https://github.com/JackTheHat/lutras-codex-imperialis/blob/main/README.md",
+  "changelog": "https://github.com/JackTheHat/lutras-codex-imperialis/blob/main/Changelog",
+  "bugs": "https://github.com/JackTheHat/lutras-codex-imperialis/issues"
 }
