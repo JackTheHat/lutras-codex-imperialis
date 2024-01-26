@@ -1,7 +1,7 @@
 {
   "id": "lutras-codex-imperialis",
   "title": "Lutras Codex Imperialis",
-  "version": "0.0.1",
+  "version": "0.01",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
