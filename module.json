@@ -1,7 +1,7 @@
 {
   "id": "lutras-codex-imperialis",
   "title": "Lutras Codex Imperialis",
-  "version": "0.01",
+  "version": "0.02",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -137,7 +137,7 @@
     ]
   },
   "url": "https://github.com/JackTheHat/lutras-codex-imperialis",
-  "download": "https://github.com/JackTheHat/lutras-codex-imperialis/archive/refs/tags/0.01.zip",
+  "download": "https://github.com/JackTheHat/lutras-codex-imperialis/archive/refs/tags/0.02.zip",
   "manifest": "https://github.com/JackTheHat/lutras-codex-imperialis/releases/latest/download/module.json",
   "readme": "https://github.com/JackTheHat/lutras-codex-imperialis/blob/main/README.md",
   "changelog": "https://github.com/JackTheHat/lutras-codex-imperialis/blob/main/Changelog",
